@@ -40,7 +40,7 @@ def make_grid(arr, ncols=2):
 
 def fit_cube(max_iter          = 5000,
              resolution        = 4,
-             discontinuous     = False,
+             discontinuous     = True,
              repeats           = 1,
              log_interval      = 10,
              display_interval  = None,
